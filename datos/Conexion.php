@@ -11,7 +11,7 @@ class Conexion{
 
 		try {
 
-			$cd = new PDO("mysql:host=localhost;dbname=login","rmontesl","Rm.3006181228");
+			$cn = new PDO("mysql:host=localhost;dbname=login","rmontesl","Rm.3006181228");
 
 			return $cn;
 
