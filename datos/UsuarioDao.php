@@ -22,7 +22,7 @@ class UsuarioDao extends Conexion
 
 	public static function login($usuario)
 	{
-		$query = "SELECT id,nombre,usuario,cadena,privilegio,fecha_registro 
+		$query = "SELECT *
 		FROM usuarios WHERE usuario = :usuario AND password = :password ";
 
 		self::getConexion();
@@ -35,7 +35,11 @@ class UsuarioDao extends Conexion
 		$resultado->execute(); 
 
 		if ($resultado->rowCount() > 0) {
-			return true;
+			$filas = $resultado->fetch();
+			if ($filas["usuario"] == $usuario->getUsuario()
+				&& $filas["password"] == $usuario->getPassword()) {
+				return true;
+			}
 		}
 
 		return false;
