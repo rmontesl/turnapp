@@ -1,5 +1,6 @@
 .bg {
 	background-image: url(../img/bg.jpg);
+  height: 100%;
 }
 /* label color */
    .input-field label {
@@ -33,6 +34,7 @@
    	margin-top: 20%;
    	background: #ffffff;
    	border-radius: 15px;
+    margin-bottom: 17.5%;
    }
 
    .bg-logo > img{
@@ -40,4 +42,28 @@
    	height: auto;
    	margin-left: 30%;
    	margin-top: 30px;
+   }
+   .bg-btn{
+    width: 100%;
+    background: #590c0c;
+   }
+   .bg-btn:hover {
+    background: white;
+    color: #590c0c;
+   }
+
+   .hero  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .img-hero {
+    width: 100%;
+    height: auto;
+   } 
+
+   .justify-align{
+    text-align: justify;
+   }
+   .objetivos {
+    background-image: url(../img/bg2.jpg);
    }

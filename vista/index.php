@@ -21,7 +21,7 @@
           <label for="contraseña">Contraseña</label>
         </div>
         <div class="input-field col s12">
-          <button class="btn" type="submit"><i class="material-icons right">send</i>Ingresar</button> 
+          <button class="btn bg-btn" type="submit"><i class="material-icons right">send</i>Ingresar</button> 
         </div>
           </form>
         </div>
