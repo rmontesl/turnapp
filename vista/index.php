@@ -8,7 +8,7 @@
           <img src="assets/img/turnapp.png" alt="" class="responsive-img">
         </div>
         <div class="bg-form">
-          <form action="ValidadCode.php" method="POST" id="loginForm">
+          <form id="loginForm" action="ValidarCode.php" method="POST">
             <H5 class="grey-text center-align">Iniciar Sesión</H5>
             <div class="input-field col s12">
           <i class="material-icons prefix">account_circle</i>

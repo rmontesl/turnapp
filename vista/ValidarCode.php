@@ -3,6 +3,8 @@
 
 include '../controlador/UsuarioControlador.php';
 
+header('Content-type: application/json');
+
 $resultado = array();
 
 if (isset($_POST["txtUsuario"]) && isset($_POST["txtPassword"])) {
