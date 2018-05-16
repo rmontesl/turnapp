@@ -1,5 +1,13 @@
 <?php include 'partial/head.php'; ?>
-<?php session_start(); ?>
+<?php session_start(); 
+	if (isset($_SESSION["usuario"])) {
+	 	if ($_SESSION["usuario"]["privilegio"] == 2) {
+	 		header("location:user.php");
+	 	}
+	 }else {
+	 header("location:index.php");
+  }
+	 ?>
 <?php include 'partial/nav.php'; ?>
 
 <section class="hero">
@@ -58,16 +66,6 @@
   </div>
 	</div>
 </section>
-<section class="footer">
-	<div class="container">
-		<div class="row">
-		<div class="col s6"><p class="left-align white-text">Versión 0.1.1</p></div>
-		<div class="col s6"><p class="right-align white-text">Un producto <a href="http://conaccion.co" target="_blank">ConAcción</a></p>
-		</div>
-	</div>
-		
-		
-	</div>
-</section>
+
 
 <?php include 'partial/footer.php'; ?>
