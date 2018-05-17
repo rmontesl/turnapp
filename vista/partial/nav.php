@@ -3,8 +3,8 @@
   <li><a href="organigrama.php" class="grey-text">Organigrama</a></li>
 </ul>
 <ul id="gestion" class="dropdown-content">
-  <li><a href="#!" class="grey-text">Manuales</a></li>
-  <li><a href="#!" class="grey-text">Programador de turnos</a></li>
+  <li><a href="manuales.php" class="grey-text">Manuales</a></li>
+  <li><a href="programador.php" class="grey-text">Programador de turnos</a></li>
 </ul>
 <ul id="indicadores" class="dropdown-content">
   <li><a href="#!" class="grey-text">Gestión de RRHH</a></li>
@@ -14,8 +14,8 @@
   <li><a href="organigrama.php" class="grey-text">Organigrama</a></li>
 </ul>
 <ul id="gestionMobile" class="dropdown-content">
-  <li><a href="#!" class="grey-text">Manuales</a></li>
-  <li><a href="#!" class="grey-text">Programador de turnos</a></li>
+  <li><a href="manuales.php" class="grey-text">Manuales</a></li>
+  <li><a href="programador.php" class="grey-text">Programador de turnos</a></li>
 </ul>
 <ul id="indicadoresMobile" class="dropdown-content">
   <li><a href="#!" class="grey-text">Gestión de RRHH</a></li>
