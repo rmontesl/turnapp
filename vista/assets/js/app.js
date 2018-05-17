@@ -41,12 +41,4 @@ $(document).ready(function(){
 
 });
 
-  $(function() {
-
-  // page is now ready, initialize the calendar...
-
-  $('#calendarioWeb').fullCalendar({
-    // put your options and callbacks here
-  })
-
-});
+  
