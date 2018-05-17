@@ -22,6 +22,7 @@
 	</div>
 </section>
 <section class="objetivos">
+<<<<<<< HEAD
 	<div class="container">
 		<div class="row">
 			<h2 class="grey-text center-align">Objetivos de la plataforma</h2>
@@ -67,7 +68,9 @@
 	</div>
 </section>
 
+=======
 	
 </section>
+>>>>>>> parent of bf42632... quienes somos
 
 <?php include 'partial/footer.php'; ?>
