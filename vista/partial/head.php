@@ -9,7 +9,6 @@
       <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" type="text/css" href="assets/css/overhang.min.css" />
       <link rel="stylesheet" href="assets/css/app.css">
-      
     </head>
 
     <body>
