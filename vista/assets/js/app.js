@@ -1,11 +1,4 @@
 $(document).ready(function(){
-<<<<<<< HEAD
-=======
-    $('.sidenav').sidenav();
-  });
-
-$(document).ready(function(){
->>>>>>> parent of bf42632... quienes somos
 	
 	$("#loginForm").bind("submit", function(){
 
